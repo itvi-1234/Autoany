@@ -1,0 +1,20 @@
+{
+  "SM-A042F_R9ZW302DAHW": {
+    "usb_id": "R9ZW302DAHW",
+    "wifi_id": "10.94.22.54:5555",
+    "model": "SM-A042F",
+    "serial": "R9ZW302DAHW"
+  },
+  "_": {
+    "usb_id": "R9ZW2032S9N",
+    "wifi_id": "10.94.22.250:5555",
+    "model": "",
+    "serial": ""
+  },
+  "SM-A042F_R9ZW1021PHK": {
+    "usb_id": "R9ZW1021PHK",
+    "wifi_id": "10.94.22.69:5555",
+    "model": "SM-A042F",
+    "serial": "R9ZW1021PHK"
+  }
+}
