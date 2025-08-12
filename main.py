@@ -50,7 +50,7 @@ def get_wifi_ip(device):
     # Fallback: get IP from ADB connection info
     try:
         result = subprocess.run(["adb", "-s", device, "shell", "getprop", "dhcp.wlan0.ipaddress"], 
-                              capture_output=True, text=True).stdout.strip()
+                            capture_output=True, text=True).stdout.strip()
         if result and "." in result:
             return result
     except:
@@ -82,7 +82,7 @@ def switch_to_wifi(devices):
             
             # Enable TCP mode
             tcp_result = subprocess.run(["adb", "-s", dev, "tcpip", "5555"], 
-                                      capture_output=True, text=True)
+                                    capture_output=True, text=True)
             if tcp_result.returncode != 0:
                 print(f"❌ Failed to enable TCP mode on {dev}")
                 continue
